@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>Instagrão</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+	<script src="instagrao.js"></script>
+</head>
+
+<body>
+	<center>
+		<div class="container">
+
+			<h1 class="header">
+				<img src="Instagrao-logo.png">
+				<br>
+				Instagrão
+			</h1>
+			<div class="form-group">
+				<label>Nome de usuário:</label>
+				<input type="text" id="userName" class="form-control" placeholder="Nome de usuário">
+			</div>
+
+			<button class="btn btn-success" onclick="addpeople()">Entrar</button>
+		</div>
+	</center>
+</body>
+
+</html>

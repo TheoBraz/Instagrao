@@ -1,0 +1,38 @@
+body{
+    background-image:linear-gradient(to right top, aqua,aqua,aqua);
+    min-height:100%;
+    display:flex;
+    flex-direction: column;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+}
+.header{
+    color: brown;
+    font-family: 'Yeon Sung'; 
+    font-size: 45px;
+    margin-top: 80px;
+}
+.header img{
+    width: 160px;
+    border-radius: 25px;
+}
+.login_div{
+    background-color: aliceblue;
+    float: none;
+    border-radius: 15px;
+    margin: 20px;
+    align-items: center;
+}
+#userName, #chatName{
+    width: 40%;
+}
+#output{
+    background-color: aqua;
+    color: black;
+}
+#enviarMsg{
+    text-align: end;
+    margin-top: auto;
+}
